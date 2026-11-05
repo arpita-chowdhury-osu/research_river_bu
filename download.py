@@ -42,7 +42,7 @@ def fetch(row, out, retries=4):
                 raise ValueError("checksum mismatch")
             tmp = dest.with_suffix(".part")
             tmp.write_bytes(data)
-            tmp.rename(dest)
+            tmp.replace(dest)
             return "downloaded", row["filename"]
         except Exception as e:  # network error or bad file: wait and retry
             if attempt == retries - 1:
