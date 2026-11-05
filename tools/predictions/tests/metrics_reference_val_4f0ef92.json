@@ -1,0 +1,13 @@
+{
+  "commit": "4f0ef92506ba00ad6eeda7ab27be7cdf7fc72009",
+  "csv_blob_sha": "da00ba758ccc5e53b7d979bd4fe1dbd0a6470e93",
+  "csv_source": "https://github.com/arpita-chowdhury-osu/research_river_bu/blob/4f0ef92506ba00ad6eeda7ab27be7cdf7fc72009/baseline/results/predictions_val.csv",
+  "metrics_source": "https://github.com/arpita-chowdhury-osu/research_river_bu/blob/4f0ef92506ba00ad6eeda7ab27be7cdf7fc72009/baseline/results/metrics.json",
+  "reference_val": {
+    "days": 364,
+    "within_x2": 0.9752747252747253,
+    "r2_log": 0.9470870460910733,
+    "rmse_log": 0.2977664162090574,
+    "spearman": 0.9746276139800424
+  }
+}

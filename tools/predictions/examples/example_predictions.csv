@@ -1,0 +1,4 @@
+image_id,date,discharge_lps,pred_discharge_lps
+demo_2,2024-01-01,12.5,11
+demo_1,2024-01-01,10.00,9.5
+demo_4,2024-01-02,0,0.3
